@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="noodle-logging",
-    version="0.2",
+    version="0.3",
     author="Ali Askar",
     author_email="aliaskar1024@gmail.com",
     description="Logging in JSON the easy way!",
@@ -15,8 +15,8 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'six==1.12.0',
-        'structlog==19.1.0',
-        'python-json-logger==0.1.11'
+        'structlog==21.1.0',
+        'python-json-logger==2.0.1'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
