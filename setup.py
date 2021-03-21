@@ -15,8 +15,8 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'six==1.12.0',
-        'structlog==21.1.0',
-        'python-json-logger==2.0.1'
+        'structlog==19.1.0',
+        'python-json-logger==0.1.11'
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
