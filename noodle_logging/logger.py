@@ -10,7 +10,7 @@ logging.config.dictConfig({
     'formatters': {
         'json': {
             'format': '%(message)s',
-            'class': 'pythonjsonlogger.jsonlogger.JsonFormatter'
+            '()': 'pythonjsonlogger.jsonlogger.JsonFormatter'
         }
     },
     'handlers': {
